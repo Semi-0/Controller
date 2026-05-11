@@ -1,1 +1,3 @@
-/target/
+# Build output — ignore everything under target/ except the shipped uberjar.
+/target/*
+!/target/semi-dev-menu.jar

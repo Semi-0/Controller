@@ -1,0 +1,7 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.12.4"}}
+ :aliases
+ {:semi-menu {:main-opts ["-m" "semi-dev-menu"]}
+  :build {:deps {io.github.clojure/tools.build {:mvn/version "0.10.5"}} 
+          :ns-default build
+          :paths ["."]}}}
